@@ -1,1 +1,43 @@
-body { padding-top:30px; }
+body{
+	font-family: 'Raleway', sans-serif;
+	background: #a2d4f2;
+	color: #575757;
+}
+h1{
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	color: #000;
+}
+a{ 
+	color: #575757; 
+}
+
+.social-container {
+    -moz-column-count: 4;
+    -moz-column-gap: 10px;
+    -webkit-column-count: 4;
+    -webkit-column-gap: 10px;
+    column-count: 4;
+    column-gap: 10px;
+    width: 100%;
+}
+
+.social-card{
+	background: #fff;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 5px;
+    border: 1px solid #575757;
+    border-radius: 5px;
+    padding: 10px 8px;
+}
+
+.social-card:hover{
+	cursor: pointer;
+}
+
+.social-card-author{
+	color: #ffa500;
+	font-style: italic;
+	text-decoration: underline;
+}
